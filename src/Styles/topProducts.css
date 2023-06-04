@@ -1,0 +1,94 @@
+table{
+    font-size:12px;
+}
+
+table tbody tr td{
+    padding: 15px !important;
+}
+
+.progress-bar{
+    height: 5px;
+    background: #dc35453b;
+    border-radius: 0;
+}
+
+
+.progress{
+    height: 5px !important;
+    background: #fdbac0 !important;
+    border-radius: 0;
+}
+
+
+tr td:nth-child(1),tr td:nth-child(2){
+    color: #161F48 !important;
+    font-weight: 700;
+}
+
+tr:nth-child(0) td{
+    color:unset !important;
+    font-weight: unset !important;
+    }
+
+tr:nth-child(2) .progress-bar{
+    background: #0999FF !important;
+}
+tr:nth-child(2) .progress{
+    background: #0998ff5e !important;
+}
+
+tr:nth-child(3) .progress-bar{
+    background: #00E097 !important;
+}
+tr:nth-child(3) .progress{
+    background: #a9fbd58f !important;
+}
+
+tr:nth-child(4) .progress-bar{
+    background: #884DFF !important;
+}
+tr:nth-child(4) .progress{
+    background: #c5a9ffba !important;
+}
+
+tr:nth-child(5) .progress-bar{
+    background: #FE8F0D !important;
+}
+tr:nth-child(5) .progress{
+    background: #fed4a296 !important;
+}
+
+.td-perc{
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.p1{
+    border: 1px solid #0999FF;
+    color:#0999FF;
+    font-weight:700;
+    background: #0998ff5e !important;
+    
+}
+
+.p2{
+   border: 1px solid #00E097;
+   color:#00E097;
+   font-weight:700;
+    background: #a9fbd58f !important;
+}
+
+.p3{
+   border: 1px solid #884DFF;
+   color:#884DFF;
+   font-weight:700;
+    background: #c5a9ffba !important;
+}
+
+.p4{
+    border: 1px solid #FE8F0D;
+    color:#FE8F0D;
+    font-weight:700;
+    background: #fed4a296 !important;
+}
+

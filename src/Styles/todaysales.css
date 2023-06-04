@@ -1,0 +1,99 @@
+.btn-wrapper {
+    border: 0.5px solid #cccccc;
+    border-radius: 5px;
+}
+
+.container-fluid.page-body-wrapper {
+    padding: 2%;
+    background-color: #e8e8e81f;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 10%; 
+    font-size: 12px;
+ }    
+
+ .ts .about .sidebar-brand-icon{
+    
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 5px -4px;
+    } 
+
+    .about .abt-btn{
+        color:blueviolet;
+        background-color:#ffffff;
+        font-weight: 500;
+        width:100%;
+    }
+
+    .about span{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .about h5{
+        font-weight: 700;
+    }
+
+    .card.card-rounded {
+        border: none;
+    }
+
+    .card1{
+        background-color:#FFE2E6 !important;
+    border-radius: 15px;
+
+    }
+
+    .card1 .sidebar-brand-icon{
+        background-color: #FA5A7E;
+        color: #ffffff;
+    }
+
+.card2{
+    background-color:#FFF4DE !important;
+    border-radius: 15px;
+    }
+    .card2 .sidebar-brand-icon{
+        background-color: #FE947A;
+        color: #ffffff;
+    }
+
+    .card3{
+        background-color:#DCFCE7 !important;
+        border-radius: 15px;
+    }
+    .card3 .sidebar-brand-icon{
+        background-color: #3DD856;
+        color: #ffffff;
+    }
+
+    .card4{
+        background-color:#F4E8FF !important;
+        border-radius: 15px;
+    }
+    .card4 .sidebar-brand-icon{
+        background-color: #C185FF;
+        color: #ffffff;
+    }
+    
+    .perc{
+        color:#30A8FE;
+    }
+
+    h5.card-title.card-title-dash {
+        color: #161F48 !important;
+        font-weight: 700;
+    }
+
+    .btn-wrapper button{
+        color: #161F48 !important;
+        font-size: 12px;
+        font-weight: 600;
+    }

@@ -1,0 +1,71 @@
+ul.sidebar{
+    padding: 5px 15px;
+    width: 250px;
+    font-size: 14px;
+    height: 100vh;
+}
+.sidebar-brand{
+    color:hsla(0, 0%, 20%, 0.8);
+    font-weight:600;
+    text-decoration: none;
+    font-size:18px;
+    margin:25px 0;
+}
+.sidebar-brand-icon{
+background-color: #5D60EF;
+color:#ffffff;
+padding:6px 9px;
+border-radius:5px;
+font-size:14px;
+}
+
+ul.sidebar li{
+padding:2%;
+margin-bottom:5px;
+}
+
+ul.sidebar li i{
+    padding:0 10%;
+    }
+
+.sidebar .active{
+background-color: #5D60EF;
+color:#ffffff;
+border-radius:10px;
+    }
+
+  ul .about{
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #5D60EF;
+    padding: 5% 20%; 
+    text-align: center;
+    font-size: 12px;
+ }    
+
+  .about .sidebar-brand-icon{
+    background-color: #ffffff;
+    color: #5D60EF;
+    padding: 8%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 40px;
+    margin: 0px auto 15px;
+    } 
+
+    .about .abt-btn{
+        color:#5D60EF;
+        background-color:#ffffff;
+        font-weight: 500;
+        width:100%;
+    }
+
+    .about .abt-btn:hover{
+        color:#5D60EF;
+background-color:#ffffffdc !important;
+    }
+
+    .about p{
+    text-indent: 5px;
+    }

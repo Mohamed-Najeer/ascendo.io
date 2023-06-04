@@ -1,0 +1,111 @@
+nav.navbar{
+display: flex;
+justify-content: space-between;
+}
+div.searchBar{
+    width:400px;
+}
+
+div.searchBar input:focus{
+    border:none !important;
+}
+
+.form-control:focus {
+    border-color: #ced4da; /* default B5 color or set your own color*/
+    border: none !important; /* if you want to remove borders at all*/
+    outline: none !important;
+    box-shadow: none !important;
+  } 
+  .lang_drp{
+    border: none;
+    background: none;
+  }
+  .slc_flag{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: ui-monospace;
+  }
+
+  .slc_flag i,.usr i{
+    font-size: 10px;
+    color: #3b3b3b;
+  }
+
+  .flg-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.notification-ui{
+    background: #ffa5003d;
+    height: 35px;
+    width: 34px;
+    border-radius: 7px;
+}
+
+.notification-ui a:after {
+    display: none;
+}
+.notification-ui i{
+    color:#f27739;
+}
+.notification-ui_icon {
+    position: relative;
+}
+
+.notification-ui_icon .unread-notification {
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 7px;
+    background-color: #de0938;
+    position: absolute;
+    top: 4px;
+    left: 24px;
+}
+
+@media (min-width: 900px) {
+    .notification-ui_icon .unread-notification {
+        left: 24px;
+    }
+}
+
+.notification-ui_dd {
+    padding: 0;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 5px 20px -3px rgba(0, 0, 0, 0.16);
+    border: 0;
+    max-width: 400px;
+}
+
+
+
+.notification-ui_dd:after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 7px);
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent;
+}
+
+.notification-ui_dd .notification-ui_dd-header {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}
+
+
+
+.usr_img{
+    width: 45px;
+    height: 50px;
+    border-radius: 15px;
+}
